@@ -1,0 +1,37 @@
+<!-- PROJECT:
+===Undo last calculation
+===Memory Add
+===Clear Function
+i will want a clear button that will clear all info out of calc.
+===Style it
+===Show history of calculations
+===Allow calculations to continue on
+i will want to make the sum value the input_1 value unless its cleared out
+BONUS:
+===Make a slot machine with javascript -->
+
+
+<html>
+  <head>
+    <script src ='main.js'></script>
+  </head>
+
+  <body>
+    <input type='number' id='input_1' />
+    <input type='number' id='input_2' />
+
+    <button onclick='add()'>+</button>
+    <button onclick='subtract()'>-</button>
+    <button onclick='divide()'>/</button>
+    <button onclick='multiply()'>*</button>
+    <label id='output'></label>
+    <br />
+    <label>Last Answer: </label>
+    <label id='last_answer'></label>
+    <br />
+    <button onclick='priorEquations()'>Prior computations:</button>
+    <br />
+    <label id='historyoutput'></label>
+    
+  </body>
+<html>
